@@ -1,0 +1,51 @@
+/* Empty. Add your own CSS if you like */
+
+#weatherContainer{
+  text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.5);
+  background-color: #426eb9;
+  background: url(../img/bg.jpg) center center no-repeat scroll;
+  position: fixed;
+  background-size: cover;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: #fff;
+  font-weight: 300;
+}
+
+.ion-ios-sunny,
+.ion-ios-partlysunny {
+  color: yellow;
+}
+
+#current-weather {
+  text-align: center;
+   margin-top: 15%;
+}
+
+.current-temp {
+  font-size: 8em;
+  font-weight: 100;
+}
+
+#current-icon {
+  font-size: 4em;
+  vertical-align: middle;
+  margin-right: .1em;
+}
+
+#temp-lo {
+  margin-left: 10%;
+}
+
+.scroll-refresher .ionic-refresher-content {
+ color: #fff; 
+}
+
+.icon-pulling {
+  text-shadow: none; 
+}
